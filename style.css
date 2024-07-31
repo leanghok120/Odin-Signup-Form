@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Norse";
+  src: URL("./fonts/Norse-Bold.otf") format("truetype");
+}
+
+body {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  font-family: "Norse", sans-serif;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: center;
+}
+
+.odin-header {
+  display: flex;
+  height: 14rem;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 250px;
+}
+
+.background-img {
+  height: 100vh;
+}
+
+.odin-logo {
+  width: 125px;
+}
+
+.odin-text {
+  font-size: 120px;
+  color: white;
+}
