@@ -3,30 +3,39 @@
   src: URL("./fonts/Norse-Bold.otf") format("truetype");
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
 body {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  font-family: "Norse", sans-serif;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  font-family: Arial, sans-serif;
 }
 
 .logo-section {
   display: flex;
-  justify-content: center;
+  width: 35%;
+  background-image: url("./images/mountains.jpg");
+  background-position: center center;
+  padding-bottom: 10px;
 }
 
 .odin-header {
   display: flex;
   height: 14rem;
-  width: 40%;
+  width: 35%;
   justify-content: center;
   align-items: center;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.4);
   margin-top: 250px;
-}
-
-.background-img {
-  height: 100vh;
 }
 
 .odin-logo {
@@ -36,4 +45,28 @@ body {
 .odin-text {
   font-size: 120px;
   color: white;
+  font-family: "Norse", sans-serif;
+}
+
+.credit-text {
+  color: #ffffff;
+  width: 100%;
+  align-self: flex-end;
+  text-align: center;
+  font-size: 14px;
+}
+
+.credit-text a {
+  color: white;
+}
+
+.form-section {
+  padding-left: 30px;
+  padding-right: 10rem;
+  width: 65%;
+  background-color: #f8fafa;
+}
+
+.header {
+  font-size: 20px;
 }
