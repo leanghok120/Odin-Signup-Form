@@ -121,6 +121,10 @@ label {
   border: 1.5px solid blue;
 }
 
+.input-text[type="password"]:invalid {
+  border: 1.5px solid red;
+}
+
 .submit-btn {
   margin-top: 33px;
   background-color: #596d48;
@@ -132,6 +136,7 @@ label {
   border: none;
   border-radius: 8px;
   box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .login-text {
